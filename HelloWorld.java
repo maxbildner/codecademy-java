@@ -1,4 +1,4 @@
-// NOTES
+// LESSON 1 NOTES- INTRO
 // - class name must match file name "HelloWorld.java" (case sensitive)
 // - Java is a COMPILED language = code is transformed into byte code by a
 //   compiler before it is executed. 
