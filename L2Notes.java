@@ -1,5 +1,5 @@
 // LESSON 2 NOTES- VARIABLES
-// - PRIMITIVE DATA TYPES:
+// 1) PRIMITIVE DATA TYPES:
 //    - int     integers. ex. -13, 0, 2
 //    - double  doubles.  ex.  1.7 E+ 308 (17 followed by 307 0's) rational nums
 //        - can store larger/smaller numbers than int
@@ -13,7 +13,7 @@
 //   Ex:
 //   int year;
 //
-// OPERATORS:
+// 2) OPERATORS:
 // - similar to JavaScript
 // - integer division = any remainder is lost (num is floored)
 //   ex.

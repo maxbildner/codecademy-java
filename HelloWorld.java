@@ -8,9 +8,18 @@
 //    - this creates a .class file in your current directory, which you can 
 //      then run with the below command:
 // - can run java in mac terminal with      "java [filename]"
-// - Java files must have at least one class AND one main() method
-// - main() 
-//    - runs the main task of the program
+//
+// 1) Java files must have at least one class AND one main() method
+// 
+// 2) public static void main(String[] args)
+//    - public = allows main to be accessible everywhere (like ruby public methods)
+//    - static = ?
+//    - void = main method does not return any values
+//    - main = name of method
+//        - every file/class must have a main method
+//        - entry point for app, all other methods are invoked here
+//        - accepts a single arg. an array of strings
+//        - runs automatically
 
 
 public class HelloWorld {
