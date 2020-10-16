@@ -60,7 +60,36 @@ class ArrayLists {
     nums7.set(1, 69);
     System.out.println(nums7);          //=> [ 1, 69 ]
 
-    
+    // 10) REMOVING element- .REMOVE METHOD
+    // - arrayList.remove( idx )
+    // - returns removed element
+    ArrayList<String> nums8 = new ArrayList<String>();
+    nums8.add("a");
+    nums8.add("b");
+    nums8.add("c");
+    System.out.println(nums8.remove(2));    //=> "c"
+    System.out.println(nums8);              //=> [ a, b ]
+
+    // 11) REMOVING element- .REMOVE METHOD
+    // - arrayList.remove( value )
+    // - returns FIRST instance of the value
+    ArrayList<String> nums9 = new ArrayList<String>();
+    nums9.add("a");
+    nums9.add("b");
+    nums9.add("a");
+    System.out.println(nums9.remove("a"));  //=> a
+    System.out.println(nums9);              //= [ b, a ]
+
+    // 12) FINDING element- .INDEX OF METHOD
+    // - arrayList.indexOf( value )
+    // - returns FIRST instance of value
+    //   returns -1 if not found
+    ArrayList<String> nums10 = new ArrayList<String>();
+    nums10.add("apple");
+    nums10.add("pear");
+    nums10.add("apple");
+    System.out.println(nums10.indexOf("apple"));  //=> 0
+    System.out.println(nums10.indexOf("mango"));  //=> -1
 
 
   }
