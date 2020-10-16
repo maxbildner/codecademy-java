@@ -26,7 +26,8 @@ public class ArrayNotes {
     // 4) Creating an empty array, and itializing it with fixed size
     //    - create an array of Strings called pets, with a size limit of 3
     //    - once you do this, you cannot change the size!!
-    //    - values are initialized with NULL!!!
+    //    - values are initialized with NULL (for STRING Arrays)
+    //    - values are initialized with 0 (for INT Arrays)
     String[] pets = new String[3];
     System.out.println(pets[0]);               //=> null
 
