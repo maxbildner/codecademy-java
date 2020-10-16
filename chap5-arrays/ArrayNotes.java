@@ -18,30 +18,35 @@ public class ArrayNotes {
     //    - create an array of integers, called nums1:
     int[] nums1 = { 1, 1, 2, 3, 5 };
 
-    // 3) Arrays.toString() method
-    //    - prints array values
-    //    - need to import java.util.Arrays for this to work
-    int[] nums2 = { 1, 2, 3 };
-    Arrays.toString(nums2);                      //=> [1, 1, 2, 3, 5]
-    
-    // 4) Accessing Values in arrays
-    //    - use square brackets [ index ], just like JS
-    double[] prices = { 1.0, 1.5, 2.0 };
-    System.out.println(prices[0]);              //=> 1.0
-    
-    // 5) Creating an empty array, and itializing it with fixed size
+    // 3) Declaring an Array, then initializing with "new"
+    //    - cant declare, then initialize with { }
+    int[] arr;
+    arr = new int[3];
+
+    // 4) Creating an empty array, and itializing it with fixed size
     //    - create an array of Strings called pets, with a size limit of 3
     //    - once you do this, you cannot change the size!!
     //    - values are initialized with NULL!!!
     String[] pets = new String[3];
     System.out.println(pets[0]);               //=> null
 
-    // 6) Populating values in an array
+    // 5) Arrays.toString() method
+    //    - prints array values
+    //    - need to import java.util.Arrays for this to work
+    int[] nums2 = { 1, 2, 3 };
+    Arrays.toString(nums2);                      //=> [1, 1, 2, 3, 5]
+    
+    // 6) Accessing Values in arrays
+    //    - use square brackets [ index ], just like JS
+    double[] prices = { 1.0, 1.5, 2.0 };
+    System.out.println(prices[0]);              //=> 1.0
+    
+    // 7) Populating values in an array
     //    - once array has been declared with size, you can populate values
     String[] fruits = new String[3];
     fruits[0] = "mango";
 
-    // 7) array.length property
+    // 8) array.length property
     //    - built in instance field/attribute/state of arrays (like JS)
     int[] nums3 = { 1, 1, 1 };
     System.out.println(nums3.length);          //=> 3
